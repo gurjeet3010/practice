@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .navbar{
+            background-color: pink;
+            display : flex;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            /* background-color: aqua; */
+        }
+        li{
+            list-style-type: none;
+            /* background-color: white; */
+            display: inline;
+        }
+/* to center one div into another div box */
+        .outer{
+            height:400px;
+            width : 400px;
+            background-color: cornflowerblue ;
+            display: flex;
+            justify-content: center;        /*to centralize in row*/
+            align-items: center;        /*to centralize in column*/
+        }
+        .inner{
+            height:200px;
+            width : 200px;
+            background-color: yellowgreen ;
+
+        }
+    </style>
+</head>
+<body>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+
+        <div class="outer">
+            <div class="inner">
+
+            </div>
+        </div>
+    
+</body>
+</html>
